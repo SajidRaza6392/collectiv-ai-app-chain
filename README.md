@@ -6,12 +6,12 @@
 <h3 align="center">Democratic AI for Europe – Cosmos App-Chain</h3>
 
 <p align="center">
-  🇩🇪 Deutsch &nbsp;|&nbsp; 🇬🇧 English
+  <a href="#deutsch">🇩🇪 Deutsch</a> &nbsp;|&nbsp; <a href="#english">🇬🇧 English</a>
 </p>
 
 ---
 
-## 🇩🇪 Übersicht
+## 🇩🇪 Übersicht <a id="deutsch"></a>
 
 **CollectiVAI Chain** ist eine eigene **App-Chain** auf Basis des Cosmos-Ökosystems.  
 Ziel ist eine transparente, überprüfbare Governance-Infrastruktur für demokratische Entscheidungen  
@@ -32,34 +32,8 @@ Dieses Repository enthält:
 - Netzwerkkonfigurationen (`networks/`)
 - Dokumentation (`docs/`)
 
-> ⚠️ Aktueller Status: **Frühe Projektstruktur (Pre-Alpha)** –  
+> ⚠️ **Aktueller Status:** Frühe Projektstruktur (**Pre-Alpha**) –  
 > die eigentliche Cosmos-App-Logik wird Schritt für Schritt ergänzt.
-
----
-
-## 🇬🇧 Overview
-
-**CollectiVAI Chain** is a dedicated **Cosmos-based App-Chain**  
-designed as a transparent governance and voting infrastructure  
-for democratic decision-making with a strong European focus.
-
-**Core concepts:**
-
-- On-chain governance (proposals, votes, parameter changes)
-- Roles & identities (e.g. citizens, experts, institutions)
-- Separation between:
-  - **Infrastructure** (chain, validators, governance logic)
-  - **Clients & apps** (e.g. the CollectiVAI iOS/macOS app)
-
-This repository contains:
-
-- the chain code (`app/`, `x/`)
-- the binary (`cmd/collectivaid`)
-- network configuration (`networks/`)
-- documentation (`docs/`)
-
-> ⚠️ Current status: **Early project structure (pre-alpha)** –  
-> the actual Cosmos app logic will be added step by step.
 
 ---
 
@@ -77,7 +51,7 @@ Die **CollectiVAI Chain** und die **CollectiVAI App** gehören zusammen, erfüll
   - ist die **neutrale Governance-Infrastruktur**  
   - speichert Proposals, Votes, Parameter und Rollen **on-chain**  
   - sorgt für Nachvollziehbarkeit, Transparenz und Reproduzierbarkeit  
-  - läuft auf Validator-Nodes (z. B. VPS, Server, später evtl. Community-Nodes)
+  - läuft auf Validator-Nodes (z. B. VPS, Server, später ggf. Community-Nodes)
 
 - **GitHub (dieses Repository)**  
   - ist der **offene Quellcode- und Dokumentationsort** für die Chain  
@@ -108,11 +82,37 @@ GitHub ist der Ort, an dem:
 - die technische Entwicklung der Chain organisiert wird
 - Issues, Ideen und Verbesserungen diskutiert werden
 - Versionen (Releases) dokumentiert werden
-- Konfigurationen für Devnet/Testnet/ später Mainnet abgelegt werden
+- Konfigurationen für Devnet/Testnet/später Mainnet abgelegt werden
 
 Die CollectiVAI App kann in einem **eigenen Repository** liegen, während  
 die CollectiVAI Chain in diesem Repo entwickelt wird.  
 Beide sind logisch verbunden, aber technisch getrennt.
+
+---
+
+## 🇬🇧 Overview <a id="english"></a>
+
+**CollectiVAI Chain** is a dedicated **Cosmos-based App-Chain**  
+designed as a transparent governance and voting infrastructure  
+for democratic decision-making with a strong European focus.
+
+**Core concepts:**
+
+- On-chain governance (proposals, votes, parameter changes)
+- Roles & identities (e.g. citizens, experts, institutions)
+- Separation between:
+  - **Infrastructure** (chain, validators, governance logic)
+  - **Clients & apps** (e.g. the CollectiVAI iOS/macOS app)
+
+This repository contains:
+
+- the chain code (`app/`, `x/`)
+- the binary (`cmd/collectivaid`)
+- network configuration (`networks/`)
+- documentation (`docs/`)
+
+> ⚠️ **Current status:** Early project structure (**pre-alpha**) –  
+> the actual Cosmos app logic will be added step by step.
 
 ---
 
@@ -154,7 +154,7 @@ but a client on top of the CollectiVAI Chain:
   - writes new transactions (e.g. new proposal, new vote)
   - may provide additional off-chain features (drafts, simulations, AI assistance)
 
-This turns CollectiVAI into more than „just an app“ –  
+This turns CollectiVAI into more than just an app –  
 it becomes a **frontend for a dedicated governance blockchain**.
 
 ### Role of GitHub in the project
