@@ -62,29 +62,7 @@ Die **CollectiVAI Chain** und die **CollectiVAI App** gehören zusammen, erfüll
     - technische und konzeptionelle Docs (`docs/`)
   - macht Entwicklung, Reviews und externe Beiträge nachvollziehbar
 
-### Rolle der App im Zusammenspiel mit der Chain
-
-Die CollectiVAI App soll **kein isoliertes Tool** sein, sondern ein Client auf der CollectiVAI Chain:
-
-- Alle wichtigen Governance-Aktionen (Vorschlag erstellen, abstimmen, Parameter ändern)  
-  sollen idealerweise **über die Chain** laufen.
-- Die App:
-  - liest On-Chain-Daten (Proposals, Votes, Rollen)
-  - schreibt neue Transaktionen (z. B. neues Proposal, neue Stimme)
-  - kann optional zusätzliche Off-Chain-Funktionen haben (z. B. Entwürfe, Simulationen, KI-Hilfen)
-
-Damit wird CollectiVAI mehr als „nur eine App“ – es wird ein **Frontend für eine eigene Governance-Blockchain**.
-
-### Rolle von GitHub im Projekt
-
-GitHub ist der Ort, an dem:
-
-- die technische Entwicklung der Chain organisiert wird
-- Issues, Ideen und Verbesserungen diskutiert werden
-- Versionen (Releases) dokumentiert werden
-- Konfigurationen für Devnet/Testnet/später Mainnet abgelegt werden
-
-Die CollectiVAI App kann in einem **eigenen Repository** liegen, während  
+Die CollectiVAI App liegt in einem **eigenen Repository**, während  
 die CollectiVAI Chain in diesem Repo entwickelt wird.  
 Beide sind logisch verbunden, aber technisch getrennt.
 
@@ -142,37 +120,38 @@ but they serve different purposes:
     - technical & conceptual documentation (`docs/`)
   - enables transparent development, reviews and external contributions
 
-### Role of the App in relation to the Chain
-
-The CollectiVAI App is not meant to be an isolated tool,  
-but a client on top of the CollectiVAI Chain:
-
-- All important governance actions (create proposals, vote, change parameters)  
-  should ideally go **through the chain**.
-- The app:
-  - reads on-chain data (proposals, votes, roles)
-  - writes new transactions (e.g. new proposal, new vote)
-  - may provide additional off-chain features (drafts, simulations, AI assistance)
-
-This turns CollectiVAI into more than just an app –  
-it becomes a **frontend for a dedicated governance blockchain**.
-
-### Role of GitHub in the project
-
-GitHub is where:
-
-- the technical development of the chain is organized
-- issues, ideas and improvements are discussed
-- versions (releases) are tracked
-- configurations for devnet / testnet / later mainnet are stored
-
-The CollectiVAI App can live in a **separate repository**,  
+The CollectiVAI App lives in a **separate repository**,  
 while the CollectiVAI Chain is developed in this one.  
 They are logically connected, but technically separated.
 
 ---
 
+## 🗂 Repository structure (draft)
+
+- `app/` – Cosmos app wiring (modules, configuration, encoding)  
+- `x/collectivai/` – custom module(s) for CollectiVAI civic / governance logic  
+- `cmd/collectivaid/` – main entrypoint for the CollectiVAI Chain binary  
+- `networks/` – devnet / testnet configurations (e.g. `networks/devnet/`)  
+- `scripts/` – helper scripts (build, run, reset devnets; planned)  
+- `docs/` – documentation (overview, architecture, roadmap, governance, glossary)  
+- `logo.png` – CollectiVAI project logo for this repository
+
+---
+
 ## 📚 Documentation
 
-- High-level overview: [`docs/01-overview.md`](docs/01-overview.md)
-- Architecture draft: [`docs/02-architecture.md`](docs/02-architecture.md)
+- High-level overview: [`docs/01-overview.md`](docs/01-overview.md)  
+- Architecture draft: [`docs/02-architecture.md`](docs/02-architecture.md)  
+- Roadmap (phases): [`docs/03-roadmap.md`](docs/03-roadmap.md)  
+- Governance model: [`docs/04-governance-model.md`](docs/04-governance-model.md)  
+- Glossary: [`docs/99-glossary.md`](docs/99-glossary.md)
+
+---
+
+## 🔗 Related repositories
+
+- Client app (iOS / iPadOS / macOS):  
+  [`collectiv-ai-app`](https://github.com/collectiv-ai/collectiv-ai-app)
+
+- Main website & public docs:  
+  [`collectiv-ai.github.io`](https://github.com/collectiv-ai/collectiv-ai.github.io)
