@@ -61,3 +61,11 @@ The devnet will be used to:
 - connect the **CollectiVAI App** as a client:
   - read proposals and votes from the devnet
   - submit transactions (proposals, votes) to the devnet
+
+---
+
+## Status
+
+This devnet description is a **planning draft**.  
+Concrete configuration files and scripts will be added
+once the Cosmos SDK integration for the CollectiVAI Chain starts.
