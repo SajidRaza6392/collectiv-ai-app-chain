@@ -169,3 +169,10 @@ GitHub is where:
 The CollectiVAI App can live in a **separate repository**,  
 while the CollectiVAI Chain is developed in this one.  
 They are logically connected, but technically separated.
+
+---
+
+## 📚 Documentation
+
+- High-level overview: [`docs/01-overview.md`](docs/01-overview.md)
+- Architecture draft: [`docs/02-architecture.md`](docs/02-architecture.md)
