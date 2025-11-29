@@ -74,6 +74,9 @@ The chain is designed to be accessed by multiple clients:
 - **Potential web frontends:**
   - dashboards for monitoring proposals, votes and network status
 
+In later phases, additional clients (e.g. city dashboards, research tools)
+can be added without changing the core chain.
+
 ---
 
 ## 5. Network Layout (Devnet)
@@ -86,6 +89,11 @@ For the initial development phase a **devnet** is planned:
   - test basic transactions and governance flows
   - connect the CollectiVAI App to a running chain
   - experiment with roles and participation models
+
+The first long-running devnet is planned to run on **cloud / VPS servers in the EU**, e.g.:
+
+- 2–3 validator + RPC nodes  
+- region: EU-based data centres (e.g. Germany / Netherlands)
 
 Later phases may introduce:
 
@@ -101,6 +109,13 @@ This architecture document is a **draft** and will be updated as:
 - the Cosmos SDK integration is added,
 - the module set is refined,
 - and concrete governance / role models are implemented.
+
+Current implementation status (high level):
+
+- Repository structure: ✅ defined  
+- Chain identity (devnet, token): ✅ draft  
+- Cosmos SDK wiring: ⏳ planned  
+- Devnet configuration & scripts: ⏳ planned  
 
 For a high-level conceptual overview, see also:
 
