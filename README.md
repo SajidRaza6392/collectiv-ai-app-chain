@@ -62,13 +62,3 @@ This repository contains:
 > the actual Cosmos app logic will be added step by step.
 
 ---
-
-## Repository structure (draft)
-
-```text
-cmd/collectivaid    - main entrypoint for the CollectiVAI chain binary
-app/                - chain application wiring (Cosmos app, modules, config)
-x/collectivai       - custom module(s) for Civic / Governance logic
-docs/               - documentation (overview, architecture, roadmap)
-networks/           - devnet / testnet configurations
-scripts/            - helper scripts (build, run, deploy)
