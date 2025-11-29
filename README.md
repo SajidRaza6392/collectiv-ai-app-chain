@@ -2,6 +2,17 @@
   <img src="logo.png" alt="CollectiVAI Logo" width="400" />
 </p>
 
+<p align="center">
+  <a href="https://collectivai.org">
+    <img src="https://img.shields.io/badge/Website-collectivai.org-003399?style=flat" alt="Website" />
+  </a>
+  <a href="https://github.com/collectiv-ai/collectiv-ai-app">
+    <img src="https://img.shields.io/badge/App-Alpha-ffcc00?style=flat" alt="App Alpha" />
+  </a>
+  <img src="https://img.shields.io/badge/Platforms-iOS%20%7C%20iPadOS%20%7C%20macOS-555555?style=flat" alt="Platforms" />
+  <img src="https://img.shields.io/badge/Made%20in-Europe-003399?style=flat" alt="Made in Europe" />
+</p>
+
 <h1 align="center">CollectiVAI App</h1>
 <h3 align="center">Democratic AI Companion & Civic Client</h3>
 
@@ -44,7 +55,7 @@ Die aktuelle App (Alpha / Prototype) ist in vier Hauptbereiche gegliedert:
      - Basisdaten (Organisation, Land, Titel)
      - Inhalt & Wirkung (Summary, Impact, Zielgruppe)
      - Budget & Dauer (Betrag, Währung, Laufzeit, Status)
-   - Alles bleibt **menschlich lesbar**, kann später in On-Chain-Proposals gespiegelt werden
+   - Alles bleibt **menschlich lesbar** und kann später in On-Chain-Proposals gespiegelt werden
 
 3. **Chain**  
    - Civic Dashboard (Konzept-Ansicht, kein Live-Network)  
@@ -87,23 +98,23 @@ Die aktuelle App (Alpha / Prototype) ist in vier Hauptbereiche gegliedert:
    - Fokus: Verständnis, Erklärungen, Pro/Contra-Analysen, erste Civic-Drafts.
 
 2. **Beta – Civic Participation (off-chain)**  
-   - zusätzliche Rollen (Citizen, Expert, Institution),
-   - diskussionsbasierte Workflows (Draft → Diskussion → „Vote“ off-chain),
-   - mehrsprachige Nutzung (DE/EN + weitere).
+   - zusätzliche Rollen (Citizen, Expert, Institution)  
+   - diskussionsbasierte Workflows (Draft → Diskussion → „Vote“ off-chain)  
+   - mehrsprachige Nutzung (DE/EN + weitere)
 
 3. **Chain Phase – Cosmos App-Chain Integration**  
-   - Verbindung zu `collectivai-devnet` / `testnet`,
-   - On-Chain-Proposals & Votes,
-   - Anzeige von Proposal-IDs, Vote-Status, Treasury-Bewegungen,
-   - Rolle der App als **vollständiger Client der CollectiVAI Chain**.
+   - Verbindung zu `collectivai-devnet` / `testnet`  
+   - On-Chain-Proposals & Votes  
+   - Anzeige von Proposal-IDs, Vote-Status, Treasury-Bewegungen  
+   - Rolle der App als **vollständiger Client der CollectiVAI Chain**
 
 ---
 
 ## 🇩🇪 Architektur (vereinfacht)
 
 - **Plattformen**
-  - iOS
-  - iPadOS
+  - iOS  
+  - iPadOS  
   - macOS (SwiftUI / ggf. Catalyst)
 
 - **Schichten (geplant / teilweise implementiert)**
@@ -143,19 +154,19 @@ The current (alpha / prototype) app is structured into four main tabs:
    - Transparent routing meta (model used, latency – optional in Developer Mode)
 
 2. **Contracts**  
-   - „Civic Application Hub” for **applications and project drafts**  
+   - “Civic Application Hub” for **applications and project drafts**  
    - Categories: universities, schools, NGOs, cities, startups, custom  
    - **3-step wizard**:
-     - basics (organisation, country, title)
-     - content & impact (summary, impact, target groups)
-     - budget & duration (amount, currency, duration, status)
-   - All content stays **human-readable**, can later be mirrored to on-chain proposals.
+     - basics (organisation, country, title)  
+     - content & impact (summary, impact, target groups)  
+     - budget & duration (amount, currency, duration, status)  
+   - All content stays **human-readable** and can later be mirrored to on-chain proposals.
 
 3. **Chain**  
    - Civic dashboard (concept view, no live network yet)  
    - Shows how your applications could appear later as:
-     - **on-chain proposals**
-     - **votes**
+     - **on-chain proposals**  
+     - **votes**  
      - **public treasury allocations**  
    - Cards/tiles for universities, schools, cities, NGOs, startups, and your impact/reputation.
 
@@ -199,7 +210,7 @@ The CollectiVAI App and the CollectiVAI Chain are tightly connected but serve di
 
 - **CollectiVAI App**  
   - front-end for citizens, experts and institutions  
-  - drafts, discussions, local „what-if“ analysis  
+  - drafts, discussions, local “what-if” analysis  
   - later: on-chain proposal creation & voting
 
 - **CollectiVAI Chain**  
